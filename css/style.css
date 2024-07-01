@@ -7,9 +7,122 @@ body {
 header {
     background-color: #00bfff;
     background-image: url('/img/pattern.png');
-    background-size: cover;
-    background-position: center;
-    padding: 20px;
+    background-size: 40%;
+    background-position: 50%;
+    padding: 40px;
     position: relative;
     text-align: center;
+}
+
+.logo {
+    max-width: 180px;
+    position: absolute;
+    top: 40%;
+    left: 29%;
+
+}
+
+main {
+    margin: 20px auto;
+    max-width: 1000px;
+    padding: 1px;
+}
+
+
+.images {
+    display: inline-flex;
+}
+
+.text {
+    font-size: 12px;
+    font-style: italic;
+    margin-bottom: 50px;
+    text
+}
+
+.author-date {
+    font-size: 14px;
+    color: #555;
+}
+
+p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+ul {
+    padding-left: 20px;
+    margin-bottom: 15px;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #469be6;
+    font-size: 13px;
+}
+
+
+td {
+    padding: 10px;
+    text-align: left;
+    background-color: #b1cfe9;
+    font-size: 14px;
+
+}
+
+th {
+    background-color: #10a3e7;
+    font-size: 14px;
+}
+
+.related {
+    margin-top: 1px;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    max-width: 1000px;
+    padding: 1px;
+}
+
+.text {
+    text-align: left;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+footer {
+
+    margin: 20px auto;
+    max-width: 1000px;
+    padding: 1px;
+}
+
+
+.text-overlay {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px;
+}
+
+.text-overlay2 {
+
+    top: 10%;
+    left: 50%;
+    transform: translate(11%, -990%);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
 }
