@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #00bfff;
+    background-image: url('/img/pattern.png');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+}
